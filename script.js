@@ -11,6 +11,9 @@ $('#submit-button').on('click', identityDevice);
 $('#submit-button').on('click', title);
 $('#submit-button').on('click', salary);
 $('#submit-button').on('click', monthlyCost);
+$('#buttonDiv').append('<button id="delete-button">Delete</button>');
+$('#delete-button').on('click').remove('#firstName');
+
 }//listener set-up
 
 function first() {
@@ -52,4 +55,10 @@ function monthlyCost() {
     $('#inputIDnumber').val('');
     $('#inputJobTitle').val('');
     $('#inputAnnualSalary').val('');
+   
 }
+
+// $('#delete-button').click(function() {
+//     $('#firstName').remove();
+// });
+
