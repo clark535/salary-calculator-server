@@ -16,36 +16,36 @@ $('#submit-button').on('click', monthlyCost);
 function first() {
     var employeeName = $('#inputFirstName').val();
     //console.log(employeeName);
-    $('#firstName').append('First Name: ', employeeName).val();
+    $('#firstName').append('<li>' + 'First Name: ' + employeeName + '</li>').val();
 }
 
 function last() {
     var employeeLastName = $('#inputLastName').val();
     
-    $('#lastName').append('Last Name: ', employeeLastName).val();
+    $('#lastName').append('<li>' + 'Last Name: ' + employeeLastName + '</li>').val();
 }
 
 function identityDevice() {
     var employeeID = $('#inputIDnumber').val();
     
-    $('#identNumber').append('Employee ID: ', employeeID).val();
+    $('#identNumber').append('<li>' + 'Employee ID: ' + employeeID + '</li>').val();
 }
 
 function title() {
     var employeeTitle = $('#inputJobTitle').val();
     
-    $('#jobTitle').append('Job Title: ', employeeTitle).val();
+    $('#jobTitle').append('<li>' + 'Job Title: ' + employeeTitle + '</li>').val();
 }
 
 function salary() {
     var employeeSalary = $('#inputAnnualSalary').val();
     
-    $('#annSalary').append('Annual Salary: ', employeeSalary).val();
+    $('#annSalary').append('<li>' + 'Annual Salary: ' + employeeSalary + '</li>').val();
 }
 
 function monthlyCost() {
-    var total = $('#inputAnnualSalary').val() / 12;
-    $('#monthlySalary').append('Monthly Cost: ', Math.round(total)).val();
+    var total = $('#inputAnnualSalary' + '#inputAnnualSalary').val() / 12;
+    $('#monthlySalary').html('<li>' + 'Monthly Cost: ' + Math.round(total) + '</li>').val();
 
     $('#inputFirstName').val('');
     $('#inputLastName').val('');
