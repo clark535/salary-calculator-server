@@ -1,0 +1,26 @@
+.info {
+    font-family: Times;
+    color: rgb(48, 173, 10);
+}
+
+#firstName {
+    color: rgb(12, 12, 211);
+    font-size: bold;
+
+}
+
+#lastName {
+    color: rgb(12, 12, 211);
+    font-size: bold;
+
+}
+
+#annSalary {
+    color: black;
+    font-size: bold;
+}
+
+#monthlySalary {
+    color: rgb(206, 8, 8);
+    font-size: 20px;
+}
