@@ -1,26 +1,44 @@
+#header {
+    color: rgb(187, 255, 0);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.words {
+    color: yellow;
+}
 .info {
     font-family: Times;
-    color: rgb(48, 173, 10);
+    font-size: 150%;
+    color: rgb(13, 224, 6);
 }
 
 #firstName {
-    color: rgb(12, 12, 211);
-    font-size: bold;
+    color: rgb(166, 202, 231);
+    font-size: 150%;
 
 }
 
 #lastName {
-    color: rgb(12, 12, 211);
-    font-size: bold;
+    color: rgb(166, 202, 231);
+    font-size: 150%;
 
 }
 
 #annSalary {
-    color: black;
-    font-size: bold;
+    color: rgb(245, 216, 73);
+    font-size: 150%;
 }
 
 #monthlySalary {
-    color: rgb(206, 8, 8);
-    font-size: 20px;
+    color: rgb(228, 6, 6);
+    font-size: 200%;
+}
+
+body {
+    background-image: url('http://www.andrewlewis.me/i/2017/08/cool_images_of_modern_office_spaces__simple_images_office_space__pictures_of_small_office_spaces-950x534.jpg');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    width: 1000px;
+    height: 1500px;
 }
