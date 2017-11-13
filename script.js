@@ -12,7 +12,7 @@ $('#submit-button').on('click', title);
 $('#submit-button').on('click', salary);
 $('#submit-button').on('click', monthlyCost);
 $('#buttonDiv').append('<button id="delete-button">Delete</button>');
-$('#delete-button').on('click').remove('#firstName');
+//$('#delete-button').on('click').remove('#empStore').val('');
 
 }//listener set-up
 
@@ -57,6 +57,9 @@ function monthlyCost() {
     $('#inputAnnualSalary').val('');
    
 }
+
+// var empArray = ['#inputFirstName','#inputLastName', '#inputIDnumber', '#inputJobTitle', '#inputAnnualSalary', '#monthlySalary' ];
+// $('submit-button').on('click').append('#empStore', empArray);
 
 // $('#delete-button').click(function() {
 //     $('#firstName').remove();

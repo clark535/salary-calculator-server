@@ -36,9 +36,9 @@
 }
 
 body {
-    background-image: url('http://www.andrewlewis.me/i/2017/08/cool_images_of_modern_office_spaces__simple_images_office_space__pictures_of_small_office_spaces-950x534.jpg');
-    background-repeat: no-repeat;
-    background-size: 1000px;
+    background-image: url('http://images.memes.com/character/meme/bill-lumbergh.jpg');
+    background-repeat: none;
+    /* background-size: 1000px;
     width: 1000px;
-    height: 1500px;
+    height: 1500px; */
 }
